@@ -1,0 +1,46 @@
+{
+  "name": "ardent-welcome",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.4.3",
+    "@material-ui/icons": "^2.0.1",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link-http": "^1.5.14",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "moment": "^2.22.2",
+    "query-string": "^5.1.1",
+    "react": "^16.4.1",
+    "react-apollo": "^2.5.5",
+    "react-art": "^16.4.1",
+    "react-datepicker": "^1.5.0",
+    "react-dom": "^16.4.1",
+    "react-native-web": "^0.9.8",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-text-mask": "^5.4.3",
+    "react-youtube": "^7.6.0",
+    "redux": "^4.0.0",
+    "redux-form": "^7.4.2",
+    "redux-form-validators": "^2.7.2",
+    "redux-form-website-template": "^0.0.123",
+    "source-map-explorer": "^1.6.0",
+    "styled-components": "^4.1.2",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write 'src/**/*.js'"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  }
+}
